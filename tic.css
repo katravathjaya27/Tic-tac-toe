@@ -18,30 +18,30 @@ body{
     grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 button{
-    height: 150px;
-    width: 150px;
+    height: 20vmin;
+    width: 20vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 1px 1px 1px;
+    box-shadow: 0 1px 1px 1px black;
     background-color: rosybrown;
-    font-size:100px;
+    font-size:4rem;
     color: red;
 }
 button:active{
-    height: 140px;
-    width: 140px;
+    height: 98%;
+    width: 98%;
 }#reset-btn{
-    width: 100px;
-    height: 50px;
+    width: 20vmin;
+    height: 50%;
     border-radius: 5px;
     background-color: rgb(80, 76, 74);
     color: antiquewhite;
     font-size: 1.5rem;
     box-shadow: 0px 2px 2px black;
-    margin-top: 20px;
+    margin-top: 5vmin;
     /* position: relative;
     top: 300px;
     right: 285px; */
@@ -54,7 +54,7 @@ button:active{
 }
 .msg-container{
     color: beige;
-    font-size: 50px;
+    font-size: 2.5rem;
     height: 100vmin;
     /* margin-bottom: 80vmin; */
     display: flex;
@@ -65,25 +65,25 @@ button:active{
     /* margin-top: 40vmin; */
 }
 #nGame{
-    width: 200px;
-    height: 50px;
+    width: 20vmin;
+    height: 70%;
     border-radius: 5px;
     background-color: rgb(80, 76, 74);
     color: antiquewhite;
     font-size: 1.5rem;
     box-shadow: 0px 2px 2px black;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
     /* position:relative; */
 
     /* position: relative;
     top: 300px;
     right: 285px; */
 }
-#nGame:active{
-    height: 45px;
+/* #nGame:active{
+    height: ;
 
-}
+} */
 .hide{
     display: none;
 }
